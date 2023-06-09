@@ -82,7 +82,7 @@ body * {
 
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   z-index: 1;
   transform: translateY(-50%);
 }
@@ -96,7 +96,7 @@ body * {
   display: block;
   width: 64px;
   height: 24px;
-  background: var(--surface-color) no-repeat center;
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -179,4 +179,9 @@ footer {
   .light {
     --bg-url: url("./assets/bg-desktop-light.jpg");
   }
+}
+
+/* animation */
+
+@keyframes slide-in {
 }
